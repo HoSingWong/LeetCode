@@ -23,10 +23,10 @@ public class Offer06{
     public static void main(String[] args) {
     //初始化链表
         ListNode head=new ListNode(1);
-		    ListNode firstNode = new ListNode(3);
-		    ListNode secondNode = new ListNode(2);
-		    head.next=firstNode;
-		    firstNode.next = secondNode;
+	ListNode firstNode = new ListNode(3);
+	ListNode secondNode = new ListNode(2);
+	head.next=firstNode;
+	firstNode.next = secondNode;
     //打印链表
         for (int i=0;i<reversePrint(head).length;i++){
             System.out.println(reversePrint(head)[i]);
